@@ -1,0 +1,11 @@
+.one {
+  color: blue;
+  background-color: #8af9f9;
+  text-align: center;
+  margin: 0 10%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
+  display: block;
+  border: 3px solid black;
+  border-radius: 40px;
+}
