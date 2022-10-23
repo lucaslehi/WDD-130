@@ -1,0 +1,23 @@
+p {
+  color: red;
+  position: absolute;
+}
+h1 {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  font-size: 150px;
+}
+.img {
+  position: relative;
+}
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+}
+.box2 {
+  background-color: gray;
+  position: relative;
+  padding: 300px 100px;
+}
