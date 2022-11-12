@@ -195,6 +195,73 @@ footer .social img {
   padding-top: 15px;
 }
 
+h1 {
+  color: #e9a267;
+  text-align: center;
+  font-family: "papyrus", "brush script m7", "avant garde", "century gothic",
+    sans-serif;
+  font-size: 3em;
+}
+
+h4 {
+  text-align: center;
+  font-family: "garamond", "georgia", "papyrus", serif;
+}
+
+.fork-river {
+  width: 40%;
+  height: 45%;
+  float: left;
+  margin: 0 15px 15px 0;
+  border: 10px solid #8fc9f3;
+  transition: 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.fork-river:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+.fork-text {
+  text-align: left;
+  line-height: 1.2em;
+  margin-bottom: 150px;
+}
+.desolation-river {
+  width: 40%;
+  height: 45%;
+  float: left;
+  margin: 0 15px 15px 0;
+  border: 10px solid #8fc9f3;
+  transition: 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.desolation-river:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+.desolation-text {
+  text-align: left;
+  line-height: 1.2em;
+  margin-bottom: 150px;
+}
+.grand-river {
+  width: 40%;
+  height: 45%;
+  float: left;
+  margin: 0 15px 15px 0;
+  border: 10px solid #8fc9f3;
+  transition: 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.grand-river:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+.grand-text {
+  text-align: left;
+  line-height: 1.2em;
+}
+
 @media screen and (max-width: 900px) {
   #hero,
   .home-grid {
