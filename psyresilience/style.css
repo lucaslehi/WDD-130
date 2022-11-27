@@ -22,7 +22,7 @@ nav {
 }
 nav a {
   text-align: center;
-  color: white;
+  color: rgb(36, 129, 160);
   text-decoration: none;
   padding: 35px;
 }
@@ -65,7 +65,68 @@ body {
 }
 .home-card {
   text-align: justify;
-  margin: 100px 100px 100px;
+  margin: 100px 100px 50px;
+}
+#home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+.challenge-card {
+  margin: 20px 0;
+  grid-column: 3/5;
+  grid-row: 1/2;
+  text-align: center;
+}
+.commitment-card {
+  margin: 20px 0;
+  grid-column: 7/9;
+  grid-row: 1/2;
+  text-align: center;
+}
+.control-card {
+  margin: 20px 0;
+  grid-column: 3/5;
+  grid-row: 3/3;
+  text-align: center;
+}
+/* .control-text {
+  background-color: aliceblue;
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+  margin-top: -100px;
+  position: relative;
+  text-align: center;
+} */
+.connection-card {
+  margin: 20px 0;
+  grid-column: 7/9;
+  grid-row: 3/3;
+  text-align: center;
+}
+.challenge-img {
+  border: 10px solid #ffe5ce;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.commitment-img {
+  border: 10px solid #ffe5ce;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.control-img {
+  border: 10px solid #ffe5ce;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.connection-img {
+  border: 10px solid #ffe5ce;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 footer {
   background-color: #ffe5ce;
