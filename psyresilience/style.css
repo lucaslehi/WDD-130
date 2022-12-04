@@ -149,7 +149,49 @@ footer .social img {
   padding-top: 15px;
   border-radius: 50%;
 }
+h1 {
+  color: #e9a267;
+  text-align: center;
+  font-family: "Times New Roman", "garamond", "georgia", "papyrus", serif;
+  font-size: 3em;
+}
 
+.challenge-sec {
+  width: 30%;
+  height: 35%;
+  float: left;
+  margin: 0 15px 15px 0;
+  border: 10px solid #ffe5ce;
+  transition: 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.challenge-sec:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+.challenge-text {
+  text-align: left;
+  line-height: 1.2em;
+  margin-bottom: 150px;
+}
+.commitment-sec {
+  width: 30%;
+  height: 35%;
+  float: left;
+  margin: 0 15px 15px 0;
+  border: 10px solid #ffe5ce;
+  transition: 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.commitment-sec:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+.commitment-text {
+  text-align: left;
+  line-height: 1.2em;
+  margin-bottom: 150px;
+}
 /* Full-width input fields */
 input[type="text"],
 input[type="password"] {
