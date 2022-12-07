@@ -192,6 +192,42 @@ h1 {
   line-height: 1.2em;
   margin-bottom: 150px;
 }
+.control-sec {
+  width: 30%;
+  height: 35%;
+  float: left;
+  margin: 0 15px 15px 0;
+  border: 10px solid #ffe5ce;
+  transition: 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.control-sec:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+.control-text {
+  text-align: left;
+  line-height: 1.2em;
+  margin-bottom: 150px;
+}
+.connection-sec {
+  width: 30%;
+  height: 35%;
+  float: left;
+  margin: 0 15px 15px 0;
+  border: 10px solid #ffe5ce;
+  transition: 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.connection-sec:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+.connection-text {
+  text-align: left;
+  line-height: 1.2em;
+  margin-bottom: 150px;
+}
 /* Full-width input fields */
 input[type="text"],
 input[type="password"] {
