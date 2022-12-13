@@ -206,7 +206,7 @@ h1 {
   transform: scale(1.1);
 }
 .control-text {
-  text-align: left;
+  text-align: center;
   line-height: 1.2em;
   margin-bottom: 150px;
 }
